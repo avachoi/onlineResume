@@ -81,7 +81,27 @@
 	width: 800px;
 	margin-right: 50px;
 }
-
+.circles {
+	display: flex;
+	align-items: center;
+	margin-left: 5px;
+}
+.circle {
+	width: 20px;
+	height: 20px;
+	border: 0.5px gray solid;
+	border-radius: 50%;
+	margin: 3px;
+}
+.korean {
+	background-color: blue;
+}
+.english {
+	background-color: green;
+}
+.language {
+	display: flex;
+}
 /* .head {
 	font-size: 15px;
 	font-weight: bold;
@@ -110,5 +130,6 @@
 	}
 	.right {
 		order: 1;
+		text-align: center;
 	}
 }
