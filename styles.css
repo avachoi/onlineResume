@@ -1,0 +1,86 @@
+.container {
+	margin: 50px;
+	padding: 50px;
+	border: 1px black solid;
+}
+.info {
+	display: flex;
+	justify-content: space-between;
+}
+#photo {
+	width: 150px;
+}
+.myname {
+	padding-left: 50px;
+	padding-right: 50px;
+}
+.myname h1 {
+	font-size: 50px;
+}
+.myname h3 {
+	font-size: 30px;
+}
+.biography {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	font-size: large;
+}
+.headline {
+	display: flex;
+	justify-content: space-between;
+	font-weight: bold;
+}
+.headline .position {
+	font-size: 20px;
+}
+.information {
+	display: flex;
+}
+.bars {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	width: 200px;
+	height: 250px;
+}
+.bar {
+	height: 20px;
+	display: flex;
+	color: white;
+	background-color: grey;
+}
+.color1 {
+	height: 20px;
+	width: 180px;
+	background-color: red;
+}
+.color2 {
+	height: 20px;
+	width: 170px;
+	background-color: Blue;
+}
+.color3 {
+	height: 20px;
+	width: 150px;
+	background-color: green;
+}
+.color4 {
+	height: 20px;
+	width: 180px;
+	background-color: purple;
+}
+.color5 {
+	height: 20px;
+	width: 180px;
+	background-color: orange;
+}
+.left {
+	width: 800px;
+	margin-right: 50px;
+}
+
+/* .head {
+	font-size: 15px;
+	font-weight: bold;
+} */
